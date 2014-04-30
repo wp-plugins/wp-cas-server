@@ -1,0 +1,89 @@
+# Copyright (C) 2014 Cassava: A WordPress CAS Server
+# This file is distributed under the same license as the Cassava: A WordPress CAS Server package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cassava: A WordPress CAS Server 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp-cas-server\n"
+"POT-Creation-Date: 2014-04-30 21:15:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/WPCASServer.php:189
+msgid "The CAS server is disabled."
+msgstr ""
+
+#: includes/WPCASServer.php:204
+msgid "The handler for the route is invalid."
+msgstr ""
+
+#: includes/WPCASServer.php:231
+msgid "The server does not support the method requested."
+msgstr ""
+
+#: includes/WPCASServer.php:414
+msgid "Unknown error"
+msgstr ""
+
+#: includes/WPCASServer.php:510
+msgid "Service is required."
+msgstr ""
+
+#: includes/WPCASServer.php:516
+msgid "Ticket is required."
+msgstr ""
+
+#: includes/WPCASServer.php:530
+msgid "Ticket type cannot be validated."
+msgstr ""
+
+#: includes/WPCASServer.php:536
+msgid "Ticket is malformed."
+msgstr ""
+
+#: includes/WPCASServer.php:544
+msgid "Ticket does not match service."
+msgstr ""
+
+#: includes/WPCASServer.php:550
+msgid "Ticket has expired."
+msgstr ""
+
+#: includes/WPCASServer.php:558
+msgid "Ticket does not match user."
+msgstr ""
+
+#: includes/WPCASServer.php:567
+msgid "Ticket is corrupted."
+msgstr ""
+
+#: includes/WPCASServer.php:573
+msgid "Ticket is not recognized."
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:46
+msgid "CAS server base"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Cassava: A WordPress CAS Server"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://goblindegook.github.io/wp-cas-server"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Provides authentication services based on the Jasig CAS protocol."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Luís Rodrigues"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://goblindegook.net/"
+msgstr ""

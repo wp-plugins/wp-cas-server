@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Cassava: A WordPress CAS Server package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cassava: A WordPress CAS Server 1.0.0\n"
+"Project-Id-Version: Cassava: A WordPress CAS Server 1.0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp-cas-server\n"
-"POT-Creation-Date: 2014-04-30 21:15:23+00:00\n"
+"POT-Creation-Date: 2014-05-10 11:23:24+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,60 +12,119 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: includes/WPCASServer.php:189
+#: includes/WPCASServer.php:196
 msgid "The CAS server is disabled."
 msgstr ""
 
-#: includes/WPCASServer.php:204
+#: includes/WPCASServer.php:208
 msgid "The handler for the route is invalid."
 msgstr ""
 
-#: includes/WPCASServer.php:231
+#: includes/WPCASServer.php:235
 msgid "The server does not support the method requested."
 msgstr ""
 
-#: includes/WPCASServer.php:414
+#: includes/WPCASServer.php:419
 msgid "Unknown error"
 msgstr ""
 
-#: includes/WPCASServer.php:510
-msgid "Service is required."
-msgstr ""
-
-#: includes/WPCASServer.php:516
+#: includes/WPCASServer.php:453
 msgid "Ticket is required."
 msgstr ""
 
-#: includes/WPCASServer.php:530
-msgid "Ticket type cannot be validated."
+#: includes/WPCASServer.php:457
+msgid "Service is required."
 msgstr ""
 
-#: includes/WPCASServer.php:536
+#: includes/WPCASServer.php:481
+msgid "Ticket does not match the service provided."
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:55
+#: includes/WPCASServerPluginAdmin.php:56
+msgid "Cassava CAS Server"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:89
+msgid ""
+"Cassava CAS Server requires that this site be configured for HTTPS. For more "
+"information, contact your system administrator or hosting provider."
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:135
+msgid "User Attributes To Return"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:144
+msgid "CAS server base"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:196
+msgid "Cassava CAS Server Settings"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:198
+msgid ""
+"Configuration panel for the Central Authentication Service provided by this "
+"site."
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:228
+msgid "First Name"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:229
+msgid "Last Name"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:230
+msgid "Public Name"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:231
+msgid "Email"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:232
+msgid "Website"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:254
+msgid "User Attributes"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:264
+msgid "(e.g. %s)"
+msgstr ""
+
+#: includes/WPCASServerPluginAdmin.php:269
+msgid ""
+"Checked attributes are disclosed on successful validation requests (CAS 2.0 "
+"only)."
+msgstr ""
+
+#: includes/WPCASTicket.php:144
 msgid "Ticket is malformed."
 msgstr ""
 
-#: includes/WPCASServer.php:544
-msgid "Ticket does not match service."
-msgstr ""
-
-#: includes/WPCASServer.php:550
+#: includes/WPCASTicket.php:150
 msgid "Ticket has expired."
 msgstr ""
 
-#: includes/WPCASServer.php:558
-msgid "Ticket does not match user."
+#: includes/WPCASTicket.php:156
+msgid "Ticket does not match a valid user."
 msgstr ""
 
-#: includes/WPCASServer.php:567
+#: includes/WPCASTicket.php:162
 msgid "Ticket is corrupted."
 msgstr ""
 
-#: includes/WPCASServer.php:573
-msgid "Ticket is not recognized."
+#: includes/WPCASTicket.php:166
+msgid "Ticket is unknown or has already been used."
 msgstr ""
 
-#: includes/WPCASServerPluginAdmin.php:46
-msgid "CAS server base"
+#: includes/WPCASTicket.php:204
+msgid "Ticket type cannot be validated."
 msgstr ""
 
 #. Plugin Name of the plugin/theme

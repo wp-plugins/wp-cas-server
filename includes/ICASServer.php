@@ -19,62 +19,7 @@ interface ICASServer {
      * CAS XML Namespace URI
      */
     const CAS_NS                = 'http://www.yale.edu/tp/cas';
-
-    /**
-     * Internal Error
-     */
-    const ERROR_INTERNAL_ERROR  = 'INTERNAL_ERROR';
-
-    /**
-     * Invalid Request Error
-     */
-    const ERROR_INVALID_REQUEST = 'INVALID_REQUEST';
-
-    /**
-     * Invalid Service Error
-     */
-    const ERROR_INVALID_SERVICE = 'INVALID_SERVICE';
-
-    /**
-     * Invalid Ticket Error
-     */
-    const ERROR_INVALID_TICKET  = 'INVALID_TICKET';
-
-    /**
-     * Bad Proxy-Granting Ticket Error
-     */
-    const ERROR_BAD_PGT         = 'BAD_PGT';
-
-    /**
-     * Service Ticket
-     */
-    const TYPE_ST               = 'ST';
-
-    /**
-     * Proxy Ticket
-     */
-    const TYPE_PT               = 'PT';
-
-    /**
-     * Proxy-Granting Ticket
-     */
-    const TYPE_PGT              = 'PGT';
-
-    /**
-     * Proxy-Granting Ticket IOU
-     */
-    const TYPE_PGTIOU           = 'PGTIOU';
-
-    /**
-     * Ticket-Granting Cookie
-     */
-    const TYPE_TGC              = 'TGC';
-
-    /**
-     * Login Ticket
-     */
-    const TYPE_LT               = 'LT';
-
+    
     /**
      * RFC 1123 Date-Time Format
      */

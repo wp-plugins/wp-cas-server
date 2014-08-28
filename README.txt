@@ -2,8 +2,8 @@
 Contributors: goblindegook
 Tags: authentication, cas, central authentication service, single sign-on, jasig cas, sso
 Requires at least: 3.9
-Tested up to: 3.9.1
-Stable tag: 1.1.1
+Tested up to: 4.0
+Stable tag: 1.1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -226,6 +226,11 @@ Parameters:
 == Upgrade Notice ==
 
 == Changelog ==
+
+= 1.1.2 =
+
+* WordPress 4.0 compatibility.
+* Portuguese (pt_PT) localization.
 
 = 1.1.1 =
 

@@ -3,7 +3,7 @@ Contributors: goblindegook
 Tags: authentication, cas, central authentication service, single sign-on, jasig cas, sso
 Requires at least: 3.9
 Tested up to: 4.1.1
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -241,10 +241,11 @@ Parameters:
 
 == Changelog ==
 
-= 1.2.0 (Unreleased) =
+= 1.2.0 =
 
 * Added support for the CAS 3.0 `/p3/serviceValidate` and `/p3/proxyValidate` endpoints.
-* Fixed handling of service URLs containing pipe characters.
+* Fixed a bug that prevented setting a custom CAS endpoint permalink.
+* Fixed the handling of service URLs containing pipe characters.
 * Developers: The `cas_server_routes` filter no longer deals with callbacks, controller classes are handled instead. Controller classes must extend `\Cassava\CAS\Controller\BaseController`.
 * WordPress 4.1.1 compatibility.
 * Cleaner, easier to maintain codebase.
